@@ -1,0 +1,2 @@
+# WizardsBowlBolg
+My personal blog.
