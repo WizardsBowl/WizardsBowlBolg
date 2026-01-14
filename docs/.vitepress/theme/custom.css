@@ -1,6 +1,7 @@
 .heimu:active, .heimu:hover {
-    color: #252525;
-    background-color: transparent;
+    color: unset;
+    background-color: unset;
+    text-shadow: unset;
 }
 
 .heimu {
