@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: 巫师之碗
-  text: WizardsBowl的个人博客
+  text: WizardsBowl<br>的个人博客
   tagline: 发布软件或随便写点东西...
   actions:
     - theme: brand

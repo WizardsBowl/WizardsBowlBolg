@@ -6,9 +6,12 @@ import grayItalic from './custom-md/gray-italic.mjs'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "巫师之碗",
-  description: "WizardsBowl的个人博客",
+  description: "碗里巫云(WizardsBowl)的个人博客",
   lang: 'zh-CN',
-  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/assets/icon.svg' }]],
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/assets/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/assets/logo.png' }]
+  ],
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
