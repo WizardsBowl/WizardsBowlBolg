@@ -1,5 +1,8 @@
 import { defineConfig } from 'vitepress'
 
+import heimu from './custom-md/heimu.mjs'
+import grayItalic from './custom-md/gray-italic.mjs'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "巫师之碗",
@@ -148,6 +151,10 @@ export default defineConfig({
       dangerLabel: '危险',
       infoLabel: '信息',
       detailsLabel: '详细信息'
+    },
+    config: (md) => {
+      md.use(heimu);
+      md.use(grayItalic);
     }
   }
 })

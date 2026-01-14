@@ -1,0 +1,16 @@
+.heimu:active, .heimu:hover {
+    color: #252525;
+    background-color: transparent;
+}
+
+.heimu {
+    color: #252525;
+    background-color: #252525;
+    text-shadow: none;
+    transition: color 0.13s linear, background-color 0.13s linear;
+}
+
+.gray-italic {
+    color: gray;
+    font-style: italic;
+}
