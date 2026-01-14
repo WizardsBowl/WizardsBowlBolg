@@ -70,6 +70,9 @@ export default function heimu_plugin(md) {
     // Add a new `target` attribute, or replace the value of the existing one.
     tokens[idx].attrSet('class', 'heimu');
 
+    // 添加title属性以提供悬停提示
+    tokens[idx].attrSet('title', '你知道的太多了');
+
     // Pass the token to the default renderer.
     return defaultRender(tokens, idx, options, env, self);
   };
