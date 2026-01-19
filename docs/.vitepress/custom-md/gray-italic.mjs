@@ -1,4 +1,4 @@
-// 此markdown-it插件用于支持灰斜体文本，语法为@@text@@，渲染后效果等同于<span class="gray-italic">text</span>
+// 此markdown-it插件用于支持灰斜体文本，语法为@@@text@@@，渲染后效果等同于<span class="gray-italic">text</span>
 // 使用时请确保在CSS中定义了.gray-italic类的样式，例如：.gray-italic { color: gray; font-style: italic; }
 // 代码参考自markdown-it-sub插件，并做了相应修改
 
@@ -9,7 +9,7 @@ function subscript(state, silent) {
   const max = state.posMax;
   const start = state.pos;
 
-  const mark = '@@'; // 自定义标记
+  const mark = '@@@'; // 自定义标记
 
   if (!state.src.startsWith(mark, start)) { return false; }
   if (silent) { return false; } // don't run any pairs in validation mode
