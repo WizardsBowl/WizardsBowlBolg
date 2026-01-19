@@ -6,6 +6,10 @@
 
 [最新版本](#latest)
 
+::: tip GitHub仓库地址
+[WizardsBowl/MCSoundPackMaker: 一个使用GUI生成MC音效包的小工具。](https://github.com/WizardsBowl/MCSoundPackMaker)
+:::
+
 ## 旧版停更说明
 
 本来是打算写完一系列自定义控件（美化界面用）后，换用新控件再更新的。但是嘛...
