@@ -129,13 +129,13 @@ export default defineConfig({
     },
 
     lastUpdated: {
-      text: '最后更新于'
+      text: '最后编辑于'
     },
 
     notFound: {
-      title: '页面未找到',
+      title: '少女神隐中',
       quote:
-        '但如果你不改变方向，并且继续寻找，你可能最终会到达你所前往的地方。',
+        '失去亦是得到，遗忘亦是转生。',
       linkLabel: '前往首页',
       linkText: '带我回首页'
     },
