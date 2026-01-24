@@ -38,6 +38,8 @@
 
 <DownloadCounter fileName="MC音效包制作工具v1.0.2.0.rar" filePath="https://file.wizardsbowl.com/minecraft/mspm-old/MC%E9%9F%B3%E6%95%88%E5%8C%85%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7v1.0.2.0.rar" />
 
+---
+
 ### v1.0.1.0
 
 日期：2025/3/23
@@ -49,6 +51,8 @@
 
 <DownloadCounter fileName="MC音效包制作工具v1.0.1.0.rar" filePath="https://file.wizardsbowl.com/minecraft/mspm-old/MC%E9%9F%B3%E6%95%88%E5%8C%85%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7v1.0.1.0.rar" />
 
+---
+
 ### v1.0.0.1
 
 日期：2024/10/1
@@ -59,6 +63,8 @@
 2. 新增一些异常处理。
 
 <DownloadCounter fileName="MC音效包制作工具v1.0.0.1.rar" filePath="https://file.wizardsbowl.com/minecraft/mspm-old/MC%E9%9F%B3%E6%95%88%E5%8C%85%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7v1.0.0.1.rar" />
+
+---
 
 ### v1.0.0.0
 
