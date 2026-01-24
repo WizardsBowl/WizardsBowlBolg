@@ -36,7 +36,7 @@
 2. 移除未使用的菜单项，移除不必要的快捷键。
 3. 现在保存项目文件时使用UTF-8编码字符串。
 
-下载链接：[MC音效包制作工具v1.0.2.0.rar](https://file.wizardsbowl.com/minecraft/mspm-old/MC%E9%9F%B3%E6%95%88%E5%8C%85%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7v1.0.2.0.rar)
+<DownloadCounter fileName="MC音效包制作工具v1.0.2.0.rar" filePath="https://file.wizardsbowl.com/minecraft/mspm-old/MC%E9%9F%B3%E6%95%88%E5%8C%85%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7v1.0.2.0.rar" />
 
 ### v1.0.1.0
 
@@ -47,7 +47,7 @@
 1. 新增支持单个声音事件使用多个音频文件。
 2. 允许修改Java版资源包格式版本。
 
-下载链接：[MC音效包制作工具v1.0.1.0.rar](https://file.wizardsbowl.com/minecraft/mspm-old/MC%E9%9F%B3%E6%95%88%E5%8C%85%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7v1.0.1.0.rar)
+<DownloadCounter fileName="MC音效包制作工具v1.0.1.0.rar" filePath="https://file.wizardsbowl.com/minecraft/mspm-old/MC%E9%9F%B3%E6%95%88%E5%8C%85%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7v1.0.1.0.rar" />
 
 ### v1.0.0.1
 
@@ -58,7 +58,7 @@
 1. 修正一些UI问题。
 2. 新增一些异常处理。
 
-下载链接：[MC音效包制作工具v1.0.0.1.rar](https://file.wizardsbowl.com/minecraft/mspm-old/MC%E9%9F%B3%E6%95%88%E5%8C%85%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7v1.0.0.1.rar)
+<DownloadCounter fileName="MC音效包制作工具v1.0.0.1.rar" filePath="https://file.wizardsbowl.com/minecraft/mspm-old/MC%E9%9F%B3%E6%95%88%E5%8C%85%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7v1.0.0.1.rar" />
 
 ### v1.0.0.0
 
@@ -68,4 +68,4 @@
 
 1. 实现基本功能。
 
-下载链接：[MC音效包制作工具v1.0.0.0.rar](https://file.wizardsbowl.com/minecraft/mspm-old/MC%E9%9F%B3%E6%95%88%E5%8C%85%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7v1.0.0.0.rar)
+<DownloadCounter fileName="MC音效包制作工具v1.0.0.0.rar" filePath="https://file.wizardsbowl.com/minecraft/mspm-old/MC%E9%9F%B3%E6%95%88%E5%8C%85%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7v1.0.0.0.rar" />
