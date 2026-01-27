@@ -134,8 +134,7 @@ export default defineConfig({
 
     notFound: {
       title: '少女神隐中',
-      quote:
-        '失去亦是得到，遗忘亦是转生。',
+      quote: '你要找的页面走丢了',
       linkLabel: '前往首页',
       linkText: '带我回首页'
     },
