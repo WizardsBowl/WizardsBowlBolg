@@ -1,7 +1,7 @@
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 
-import DownloadCounter from './vue-component/DownloadCounter.vue'
+import DownloadCounter from './components/DownloadCounter.vue'
 import './custom.css'
 
 export default {
