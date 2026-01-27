@@ -24,7 +24,7 @@ export default defineConfig({
         text: '关于',
         activeMatch: '/about/',
         items: [
-          { text: '网站简介', link: '/about/index' }
+          { text: '网站简介', link: '/about/' }
         ]
       },
 
@@ -32,7 +32,7 @@ export default defineConfig({
         text: 'MC',
         activeMatch: '/minecraft/',
         items: [
-          { text: '板块简介', link: '/minecraft/index' },
+          { text: '板块简介', link: '/minecraft/' },
           { text: '音效包工具(旧)', link: '/minecraft/software/mspm-old' }
         ]
       },
@@ -41,7 +41,7 @@ export default defineConfig({
         text: '东方',
         activeMatch: '/touhou/',
         items: [
-          { text: '板块简介', link: '/touhou/index' },
+          { text: '板块简介', link: '/touhou/' },
           { text: '官作运行问题', link: '/touhou/problem/eosd-problem' }
         ]
       }
@@ -52,7 +52,7 @@ export default defineConfig({
         {
           text: '关于本站',
           items: [
-            { text: '巫师之碗简介', link: '/about/index' }
+            { text: '巫师之碗简介', link: '/about/' }
           ]
         }
       ],
@@ -61,7 +61,7 @@ export default defineConfig({
         {
           text: '关于MC板块',
           items: [
-            { text: 'MC板块简介', link: '/minecraft/index' }
+            { text: 'MC板块简介', link: '/minecraft/' }
           ]
         },
         {
@@ -76,7 +76,7 @@ export default defineConfig({
         {
           text: '关于东方板块',
           items: [
-            { text: '东方板块简介', link: '/touhou/index' }
+            { text: '东方板块简介', link: '/touhou/' }
           ]
         },
         {

@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 网站简介
-      link: /about/index
+      link: /about/
     - theme: alt
       text: MC音效工具
       link: /minecraft/software/mspm-old
