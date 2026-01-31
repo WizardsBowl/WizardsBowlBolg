@@ -1,9 +1,12 @@
 import { defineConfig } from 'vitepress'
 
 import { spoiler } from "@mdit/plugin-spoiler";
-
 import heimu from './markdown-it-plugins/heimu.mjs'
 import grayItalic from './markdown-it-plugins/gray-italic.mjs'
+
+import aboutSidebar from './sidebar/about.mts'
+import minecraftSidebar from './sidebar/minecraft.mts'
+import touhouSidebar from './sidebar/touhou.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -50,44 +53,9 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/about/': [
-        {
-          text: '关于本站',
-          items: [
-            { text: '巫师之碗简介', link: '/about/' }
-          ]
-        }
-      ],
-
-      '/minecraft/': [
-        {
-          text: '关于MC板块',
-          items: [
-            { text: 'MC板块简介', link: '/minecraft/' }
-          ]
-        },
-        {
-          text: '工具软件',
-          items: [
-            { text: '旧版MC音效包制作工具', link: '/minecraft/software/mspm-old' }
-          ]
-        }
-      ],
-
-      '/touhou/': [
-        {
-          text: '关于东方板块',
-          items: [
-            { text: '东方板块简介', link: '/touhou/' }
-          ]
-        },
-        {
-          text: '官作运行问题',
-          items: [
-            { text: '红魔乡运行问题', link: '/touhou/problem/eosd-problem' }
-          ]
-        }
-      ]
+      '/about/': aboutSidebar,
+      '/minecraft/': minecraftSidebar,
+      '/touhou/': touhouSidebar
     },
 
     socialLinks: [
