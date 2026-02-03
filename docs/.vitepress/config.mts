@@ -117,6 +117,9 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
     skipToContentLabel: '跳转到内容'
   },
+  sitemap: {
+    hostname: 'https://www.wizardsbowl.com'
+  },
   markdown: {
     lineNumbers: true,
     image: {
