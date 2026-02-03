@@ -1,3 +1,12 @@
+---
+description: 东方板块简介，板块的性质及主要内容
+head:
+  - - meta
+    - name: keywords
+      content: 巫师之碗 东方板块 简介 性质 主要内容 Touhou 东方Project
+tags: [Touhou,简介]
+---
+
 # 东方板块简介
 
 目前是记录一些游玩官作时遇到的问题与解决方法。

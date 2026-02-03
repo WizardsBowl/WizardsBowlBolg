@@ -1,3 +1,12 @@
+---
+description: 巫师之碗网站的简介，网站的性质以及主要内容
+head:
+  - - meta
+    - name: keywords
+      content: 巫师之碗 简介 性质 博客 WizardsBowl 碗里巫云
+tags: [巫师之碗,简介]
+---
+
 # 巫师之碗简介
 
 巫师之碗(**Bowl of Wizard**)是我(**WizardsBowl**/**碗里巫云**)的个人博客。

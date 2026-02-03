@@ -1,3 +1,12 @@
+---
+description: 一个简单的GUI小工具，用于给Minecraft制作Java版或基岩版的音效资源包
+head:
+  - - meta
+    - name: keywords
+      content: Minecraft 我的世界 资源包 音效包 GUI 小工具 生成 制作 MC音效包制作工具 发布
+tags: [Minecraft,软件,个性化]
+---
+
 # 旧版MC音效包制作工具
 
 简单的小工具，能够使用GUI快速生成JE/BE版的音效包（本质上就是一个基本上只存放了音频文件的资源包）。
