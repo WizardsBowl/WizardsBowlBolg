@@ -3,7 +3,7 @@ description: 记录一些游玩东方红魔乡时遇到的问题以及解决方�
 head:
   - - meta
     - name: keywords
-      content: Touhou 东方Project STG 东方红魔乡 兼容问题 闪退 全屏优化 高速运行 报错 找不到文件 thprac
+      content: Touhou,东方Project,STG,东方红魔乡,兼容问题,闪退,全屏优化,高速运行,报错,找不到文件,thprac
 tags: [Touhou,STG,东方红魔乡,东方官作]
 outline: 2
 ---

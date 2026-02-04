@@ -3,7 +3,7 @@ description: 一个简单的GUI小工具，用于给Minecraft制作Java版或基
 head:
   - - meta
     - name: keywords
-      content: Minecraft 我的世界 资源包 音效包 GUI 小工具 生成 制作 MC音效包制作工具 发布
+      content: Minecraft,我的世界,资源包,音效包,GUI,小工具,生成,制作,MC音效包制作工具,发布
 tags: [Minecraft,软件,个性化]
 ---
 

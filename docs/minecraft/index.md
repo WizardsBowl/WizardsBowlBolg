@@ -3,7 +3,7 @@ description: MC板块简介，板块的性质及主要内容
 head:
   - - meta
     - name: keywords
-      content: 巫师之碗 MC板块 简介 性质 主要内容 Minecraft 我的世界
+      content: 巫师之碗,MC板块,简介,性质,主要内容,Minecraft,我的世界
 tags: [Minecraft,简介]
 ---
 
