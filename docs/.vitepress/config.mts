@@ -28,7 +28,7 @@ export default defineConfig({
 
       {
         text: '关于',
-        activeMatch: '/about/',
+        activeMatch: '^/about/',
         items: [
           { text: '网站简介', link: '/about/' }
         ]
@@ -36,7 +36,7 @@ export default defineConfig({
 
       {
         text: 'MC',
-        activeMatch: '/minecraft/',
+        activeMatch: '^/minecraft/',
         items: [
           { text: '板块简介', link: '/minecraft/' },
           { text: '工具软件', link: '/minecraft/software/mspm-old' }
@@ -45,7 +45,7 @@ export default defineConfig({
 
       {
         text: '东方',
-        activeMatch: '/touhou/',
+        activeMatch: '^/touhou/',
         items: [
           { text: '板块简介', link: '/touhou/' },
           { text: '官作运行问题', link: '/touhou/problem/eosd-problem' }
@@ -54,7 +54,7 @@ export default defineConfig({
 
       {
         text: '软件',
-        activeMatch: '/software/',
+        activeMatch: '^/software/',
         items: [
           { text: '板块简介', link: '/software/' },
           { text: '实用工具', link: '/software/utility/alpha-pixel-image' },
