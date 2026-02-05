@@ -7,6 +7,7 @@ import grayItalic from './markdown-it-plugins/gray-italic.mjs'
 import aboutSidebar from './sidebar/about.mts'
 import minecraftSidebar from './sidebar/minecraft.mts'
 import touhouSidebar from './sidebar/touhou.mts'
+import softwareSidebar from './sidebar/software.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -38,7 +39,7 @@ export default defineConfig({
         activeMatch: '/minecraft/',
         items: [
           { text: '板块简介', link: '/minecraft/' },
-          { text: '音效包工具(旧)', link: '/minecraft/software/mspm-old' }
+          { text: '工具软件', link: '/minecraft/software/mspm-old' }
         ]
       },
 
@@ -49,13 +50,24 @@ export default defineConfig({
           { text: '板块简介', link: '/touhou/' },
           { text: '官作运行问题', link: '/touhou/problem/eosd-problem' }
         ]
+      },
+
+      {
+        text: '软件',
+        activeMatch: '/software/',
+        items: [
+          { text: '板块简介', link: '/software/' },
+          { text: '实用工具', link: '/software/utility/alpha-pixel-image' },
+          { text: 'FUN', link: '/software/fun/boids-test' }
+        ]
       }
     ],
 
     sidebar: {
       '/about/': aboutSidebar,
       '/minecraft/': minecraftSidebar,
-      '/touhou/': touhouSidebar
+      '/touhou/': touhouSidebar,
+      '/software/': softwareSidebar
     },
 
     socialLinks: [
