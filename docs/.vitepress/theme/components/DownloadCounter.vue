@@ -24,5 +24,9 @@ onMounted(async () => {
 </script>
 
 <template>
-    <span class="download-counter">下载链接：<a :href="filePath" target="_self">{{ fileName }}</a> 下载次数：{{ count }}</span>
+    <div class="download-counter custom-block">
+        <p class="custom-block-title custom-block-title-default">下载链接</p>
+        <p><a :href="filePath" target="_self">{{ fileName }}</a></p>
+        <p>{{ count }}次下载</p>
+    </div>
 </template>
