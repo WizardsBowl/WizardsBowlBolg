@@ -10,5 +10,11 @@ export default [
         items: [
             { text: '红魔乡运行问题', link: '/touhou/problem/eosd-problem' }
         ]
+    },
+    {
+        text: '解包&补丁',
+        items: [
+            { text: '红魔乡图片解包', link: '/touhou/patch/eosd-png-unpack' }
+        ]
     }
 ];

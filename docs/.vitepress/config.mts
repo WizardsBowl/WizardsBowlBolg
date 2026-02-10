@@ -48,7 +48,8 @@ export default defineConfig({
         activeMatch: '^/touhou/',
         items: [
           { text: '板块简介', link: '/touhou/' },
-          { text: '官作运行问题', link: '/touhou/problem/eosd-problem' }
+          { text: '官作运行问题', link: '/touhou/problem/eosd-problem' },
+          { text: '解包&补丁', link: '/touhou/patch/eosd-png-unpack' }
         ]
       },
 
