@@ -139,6 +139,7 @@ export default defineConfig({
     image: {
       lazyLoading: true
     },
+    codeCopyButtonTitle: '复制代码',
     container: {
       tipLabel: '提示',
       warningLabel: '警告',
