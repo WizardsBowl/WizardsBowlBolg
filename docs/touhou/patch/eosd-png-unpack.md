@@ -5,7 +5,6 @@ head:
     - name: keywords
       content: Touhou,东方Project,东方红魔乡,解包,资源,图片,图像,透明度,Alpha通道,灰度图,thtk
 tags: [Touhou,东方红魔乡,东方官作,解包]
-outline: 2
 ---
 
 # 红魔乡图片解包
@@ -110,4 +109,48 @@ thdat->文件路径->最右侧按钮
 
 ## 趣事
 
-@@@未完待续...@@@
+### 消失的评级
+
+观察直接解包得到的图片`result03.png`，可以注意到在结算界面的最下方原本有“総合評価”和“称号”两项，然而这两行文本在Alpha通道图中所对应的区域为全黑（表示其不透明度为0），导致输出图像中这两项完全不可见。游戏中也始终未使用这两行结算文字。
+
+::: tabs
+
+@tab:active result03
+
+![th06-result03](https://img.wizardsbowl.com/2026/02/th06-result03-e00fa085db484aa8fb0b606ccb092232.png)
+
+@tab result03_a
+
+![th06-result03_a](https://img.wizardsbowl.com/2026/02/th06-result03_a-cdeca5344b1cac54f224f76fa6dd052c.png)
+
+@tab output
+
+![th06-result03-output](https://img.wizardsbowl.com/2026/02/th06-result03-output-4556277ab454424993ebd8cc897b76cb.png)
+
+:::
+
+由此可以推断出，ZUN原本可能打算在红魔乡中也加入评价/称号系统的，但大概还是由于“时间紧迫”的原因吧，这个源于旧作的优良传统没能延续下来。
+
+### 隐藏的色块
+
+注意到直接解包得到的图片`face08a.png`（对应下方output图片）其实本身就自带透明度信息，但它也拥有其对应的Alpha通道图（对应下方face08a_a图片），只不过合并通道后原图并不会产生任何变化罢了。然而，如果对output图片进行通道拆分操作，得到的RGB通道图（对应下方face08a图片）就与直接解包得到的原图有所不同了，并且显现出大片隐藏的残留色块。
+
+::: tabs
+
+@tab:active face08a
+
+![th06-face08a](https://img.wizardsbowl.com/2026/02/th06-face08a-6379a3339bec9ddd9a7a9ce8839310eb.png)
+
+@tab face08a_a
+
+![th06-face08a_a](https://img.wizardsbowl.com/2026/02/th06-face08a_a-bc130ccea99a67ecb67dded9280995f5.png)
+
+@tab output
+
+![th06-face08a-output](https://img.wizardsbowl.com/2026/02/th06-face08a-output-54393d345726e55416c044debe84eadd.png)
+
+:::
+
+其实这就是将直接解包得到的原图的每个像素的不透明度全部设置为255（完全不透明）的结果。设置不透明度后，显现出隐藏色块，其实就是因为这些色块部分其实都具有颜色信息，但它们在原图中的不透明度为0，因而变得不可见。
+
+其实`face08a`、`face08b`、`stg4enm`、`stg5enm`这几张图片都有这种问题!!，其中stg4enm和stg5enm其实是完全一样的!!，我暂且想象不到是什么原因导致这些色块残留在了游戏文件中。
