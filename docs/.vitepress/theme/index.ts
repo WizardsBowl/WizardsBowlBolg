@@ -9,11 +9,17 @@ import './css/vp-brand.css'
 import './css/vp-navbar.css'
 import './css/ruby.css'
 import './css/download-counter.css'
+import './css/tabs.css'
+
+import { useMditTab } from './composables/mditTab'
 
 export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
     // 注册自定义全局组件
     app.component('DownloadCounter', DownloadCounter)
+  },
+  setup() {
+    useMditTab();
   }
 } satisfies Theme
