@@ -2,6 +2,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 
 import DownloadCounter from './components/DownloadCounter.vue'
+import BiliVideo from './components/BiliVideo.vue'
 
 import './css/heimu.css'
 import './css/gray-italic.css'
@@ -18,6 +19,7 @@ export default {
   enhanceApp({ app }) {
     // 注册自定义全局组件
     app.component('DownloadCounter', DownloadCounter)
+    app.component('BiliVideo', BiliVideo)
   },
   setup() {
     useMditTab();
