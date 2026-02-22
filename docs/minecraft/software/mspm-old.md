@@ -13,11 +13,15 @@ tags: [Minecraft,软件,个性化]
 
 已经停更...多久来着？
 
-[最新版本](#latest)
+[下载链接](#latest)
 
 ::: tip GitHub仓库地址
 [WizardsBowl/MCSoundPackMaker: 一个使用GUI生成MC音效包的小工具。](https://github.com/WizardsBowl/MCSoundPackMaker)
 :::
+
+## B站视频
+
+<BiliVideo src="//player.bilibili.com/player.html?isOutside=true&aid=113153799096389&bvid=BV1eWtveHEZE&cid=25901729070&p=1" />
 
 ## 旧版停更说明
 
