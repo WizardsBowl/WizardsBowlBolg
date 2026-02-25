@@ -14,7 +14,8 @@ export default [
     {
         text: '解包&补丁',
         items: [
-            { text: '红魔乡图片解包', link: '/touhou/patch/eosd-png-unpack' }
+            { text: '红魔乡图片解包', link: '/touhou/patch/eosd-png-unpack' },
+            { text: '基本补丁', link: '/touhou/patch/basic-patch' }
         ]
     }
 ];
