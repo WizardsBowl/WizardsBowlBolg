@@ -1,4 +1,6 @@
 ---
+title: 巫师之碗主页
+description: 碗里巫云(WizardsBowl)的个人博客。
 head:
   - - meta
     - name: baidu-site-verification

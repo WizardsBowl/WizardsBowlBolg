@@ -1,4 +1,5 @@
 ---
+title: 简易Boids算法演示程序，使用DirectX绘制图形
 description: 一个纯粹测试性的Boids算法演示程序，使用.NET和DirectX实现算法和用户界面
 head:
   - - meta
@@ -7,7 +8,7 @@ head:
 tags: [软件,FUN]
 ---
 
-# Boids测试
+# 简易Boids算法演示程序，使用DirectX绘制图形
 
 早前偶然了解到[Boids算法](https://zh.wikipedia.org/wiki/Boids)，就想着自己动手试一试（顺便尝试一下[DirectX编程](https://learn.microsoft.com/zh-cn/windows/win32/direct3dgetstarted/building-your-first-directx-app)），然后就写出来这个玩意。
 

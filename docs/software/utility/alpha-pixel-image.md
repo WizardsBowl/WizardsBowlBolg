@@ -1,4 +1,5 @@
 ---
+title: AlphaPixelImage发布&下载，快速拆分或合并图片的Alpha通道
 description: 发布软件AlphaPixelImage，该软件用于拆分或合并图片的Alpha通道，生成或合并彩色图和灰度图，介绍了软件的功能和使用方法。
 head:
   - - meta
@@ -7,7 +8,7 @@ head:
 tags: [软件,实用工具]
 ---
 
-# Alpha Pixel Image
+# AlphaPixelImage发布&下载，快速拆分或合并图片的Alpha通道
 
 该软件用于拆分或合并图片的Alpha通道，生成或合并彩色图和灰度图。
 

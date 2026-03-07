@@ -1,4 +1,5 @@
 ---
+title: 东方板块简介
 description: 东方板块简介，板块的性质及主要内容
 head:
   - - meta

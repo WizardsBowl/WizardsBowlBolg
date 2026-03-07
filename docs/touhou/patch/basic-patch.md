@@ -1,4 +1,5 @@
 ---
+title: thcrap基本补丁制作教程，从新建文件夹到验收成果全流程教学
 description: 制作一个thcrap补丁，首先需要建立一个补丁仓库，设置仓库信息，再在仓库中建立一个或数个补丁包，为每个补丁包添加描述，添加资源文件。使用补丁时，需要先使用thcrap创建快捷方式，再通过快捷方式启动游戏并应用补丁。
 head:
   - - meta
@@ -7,7 +8,7 @@ head:
 tags: [Touhou,东方官作,thpatch]
 ---
 
-# 基本补丁
+# thcrap基本补丁制作教程，从新建文件夹到验收成果全流程教学
 
 本文介绍了如何制作一个简单的[thcrap](https://github.com/thpatch/thcrap)补丁。
 
