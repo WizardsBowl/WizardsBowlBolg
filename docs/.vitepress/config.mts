@@ -178,7 +178,7 @@ export default defineConfig({
     const title = pageData.title || site.title;
     const description = pageData.description || site.description;
     const url = getUrlByPageData(pageData);
-    const ogImage = pageData.frontmatter.ogImage || defaultCoverImage;
+    const ogImage = pageData.frontmatter.cover || defaultCoverImage;
     ((pageData.frontmatter.head ??= []) as HeadConfig[]).push(
       ['meta', { property: 'og:locale', content: site.lang }],
       ['meta', { property: 'og:title', content: title }],
