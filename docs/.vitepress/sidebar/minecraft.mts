@@ -8,7 +8,8 @@ export default [
     {
         text: '工具软件',
         items: [
-            { text: '旧版MC音效包制作工具', link: '/minecraft/software/mspm-old' }
+            { text: '旧版MC音效包制作工具', link: '/minecraft/software/mspm-old' },
+            { text: 'MC玩家模型生成工具', link: '/minecraft/software/mc-mnqgrt' }
         ]
     }
 ];
