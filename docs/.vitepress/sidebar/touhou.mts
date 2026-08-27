@@ -8,7 +8,8 @@ export default [
     {
         text: '官作运行问题',
         items: [
-            { text: '红魔乡运行问题', link: '/touhou/problem/eosd-problem' }
+            { text: '红魔乡运行问题', link: '/touhou/problem/eosd-problem' },
+            { text: '绀珠传运行问题', link: '/touhou/problem/lolk-problem' }
         ]
     },
     {

@@ -6,7 +6,6 @@ head:
     - name: keywords
       content: Touhou,东方Project,STG,东方红魔乡,兼容问题,闪退,全屏优化,高速运行,报错,找不到文件,thprac
 tags: [Touhou,STG,东方红魔乡,东方官作]
-outline: 2
 ---
 
 # 红魔乡常见运行问题解决办法，应对黑屏闪退等问题的经验总结
